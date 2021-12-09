@@ -8,3 +8,26 @@
 
     color: white;
 }
+nav{
+    padding-right: 450px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 24px;
+}
+
+.menu li a {
+    color: #111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li a > i{
+    margin-left: 10px;
+}
