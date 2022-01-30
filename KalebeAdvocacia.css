@@ -3,15 +3,16 @@
 
     background-image: url(./ImagensKalebeAdv/img1.jpg);
     background-repeat: no-repeat;
-    background-size: 1340px;
-    height: 1340px;
-
+    background-size: cover;
+    height: 780px;
+    width: 1330px;
+    border: solid black;
     color: white;
+
 }
 
 nav{
     display: flex;
-    padding-left: 110x;
     flex-direction: center;
 }
 
@@ -21,8 +22,10 @@ nav{
     background-color: rgb(146, 85, 5);
     display: flex;
     list-style: none;
-    align-items: center;
+    align-items: ;
+    margin: 0px;
     padding: 20px;
+    
 }
 .menu li a{
     font-size: 30px;
@@ -34,4 +37,15 @@ nav{
 
 .sessao{
     background-color:  rgb(146, 85, 5);
+}
+
+#quemsomos{
+    border: black solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    width: 1290px;
+    height: 360px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
