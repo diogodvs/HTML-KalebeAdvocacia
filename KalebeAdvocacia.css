@@ -8,26 +8,30 @@
 
     color: white;
 }
+
 nav{
-    padding-right: 450px;
+    display: flex;
+    padding-left: 110x;
+    flex-direction: center;
 }
 
 .menu{
+    text-align: center;
+    text-decoration-color: white;
+    background-color: rgb(146, 85, 5);
     display: flex;
     list-style: none;
     align-items: center;
+    padding: 20px;
 }
-
-.menu li{
-    margin-right: 24px;
-}
-
-.menu li a {
-    color: #111;
+.menu li a{
+    font-size: 30px;
+    color: rgb(231, 215, 195);
     text-decoration: none;
     cursor: pointer;
+    margin-left: 10px;
 }
 
-.menu li a > i{
-    margin-left: 10px;
+.sessao{
+    background-color:  rgb(146, 85, 5);
 }
