@@ -3,15 +3,14 @@
     background-color: rgb(13, 36, 50);
     justify-content: center;
     align-items: center;
-    position: relative;
     width: 99%;
     max-width: 1560px;
     margin-left: 10%;
-
+    
 }
 
 
-.imagens{
+#imagens{
 
     width: 80%;
     max-width: 1560px;
@@ -20,7 +19,7 @@
     position: relative;
 }
 
-.imagens img{
+#imagens img{
 
     opacity: 0;
 
@@ -31,10 +30,10 @@
 
     object-fit: cover;
 
-    transition: 600ms;
+    transition: opacity 800ms;
 }
 
-.imagens img.selected{
+#imagens img.selected{
     opacity: 1;
 
 }

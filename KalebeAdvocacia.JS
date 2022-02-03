@@ -5,9 +5,9 @@ let time = 2000,
     max = images.length; // determina o maximo de imagens //
 
     function nextimage() {
-        console.log
+        
         images[currentimageindex]
-        .classList.remove("selected")
+            .classList.remove("selected")
 
         currentimageindex++
 
@@ -15,12 +15,15 @@ let time = 2000,
             currentimageindex = 0
 
         images[currentimageindex]
-        .classList.add("selected")
+            .classList.add("selected")
     }
 
     function start() {
-           // logica de troca de imagens //
-        }
-
+        setInterval(() => {
+            // troca de imagem
+            nextImage()
+        }, time)
+    }
     
+    window.addEventListener("load", start)
 
