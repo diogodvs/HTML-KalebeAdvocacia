@@ -7,7 +7,7 @@ max = imagens.length; // determina o maximo de imagens //
 function nextImage() {
 
     imagens[currentimageindex]
-        .classlist.add("selected") // add class selected a imagem
+        .classList.add("selected") // add class selected a imagem
 
     currentimageindex++ // soma mais um ao contador de imagens
 
@@ -16,7 +16,7 @@ function nextImage() {
         //maximo de imagens que ele recomece a contagem
 
     imagens[currentimageindex]
-        .classlist.remove("selected") //remove a class selected da imagem para poder recomecar a funcao.
+        .classList.remove("selected") //remove a class selected da imagem para poder recomecar a funcao.
 }
 
 function start() {

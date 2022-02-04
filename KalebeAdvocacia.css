@@ -1,66 +1,99 @@
-            .corpo {
-                background-color: rgb(13, 36, 50);
-                justify-content: center;
-                align-items: center;
-                width: 99%;
-                max-width: 1560px;
-                margin-left: 10%;
-            }
-            
-            #logo {
-                display: flex;
-                object-position: right;
-            }
-            
-            #imagens {
-                width: 80%;
-                max-width: 1560px;
-                height: 25vw;
-                max-height: 150px;
-                position: relative;
-            }
-            
-            #imagens img {
-                opacity: 0;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: opacity 800ms;
-            }
-            
-            #imagens img.selected {
-                opacity: 1;
-            }
-            
-            .nav {
-                width: 99%;
-                font-size: 25px;
-                max-width: 1260px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: rgb(231, 215, 195);
-                display: flex;
-                flex-direction: center;
-            }
-            
-            .menu {
-                background-color: rgb(13, 36, 50);
-                display: flex;
-            }
-            
-            .menu a {
-                font-size: 30px;
-                color: rgb(231, 215, 195);
-                text-decoration: none;
-                margin-left: 10px;
-            }
-            
-            #quemsomos {
-                width: 99%;
-                text-align: center;
-                font-size: 25px;
-                max-width: 1260px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: rgb(231, 215, 195);
-                position: absolute;
-            }
+#allsite{
+
+    background-color: rgb(13, 36, 50);
+    justify-content: center;
+    align-items: center;
+    padding: 1px 30px 1px 150px;
+    border-left: rgb(176, 144, 83) solid 4px;
+    border-right: rgb(176, 144, 83) solid 4px;
+    width: auto;
+    height: 760px;
+    max-width: 1360px;
+    position: relative;
+}
+
+#logo{
+    
+}
+.corpo {
+
+    width: 99%;
+    max-width: 1560px;
+    transform: scale(0.9);
+    transform-origin: 0 0;
+        
+}
+#cabecario{
+
+    display: flex;
+    width: 1280px;
+    max-width: 1560px;
+    height: 150px;
+    max-height: 150px;
+    font-style: italic;
+    
+}
+
+#imagens {
+    padding-left: 7%;
+    width: 80%;
+    max-width: 1560px;
+    height: 25vw;
+    max-height: 150px;
+    position: relative;
+}
+
+#imagens img {
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 8000ms;
+}
+
+#imagens img.selected {
+    opacity: 1;
+}
+
+.nav {
+    width: 99%;
+    font-size: 25px;
+    max-width: 1260px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 215, 195);
+    display: flex;
+    flex-direction: center;
+    padding-top:20px;
+    position: relative;
+}
+
+.menu {
+    padding-top: 8%;
+    background-color: rgb(13, 36, 50);
+    display: flex;
+ 
+}
+
+.menu a {
+    font-size: 30px;
+    color: rgb(231, 215, 195);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#quemsomos {
+    
+    width: 99%;
+    text-align: center;
+    font-size: 25px;
+    max-width: 1260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 215, 195);
+    position: absolute;
+    font-style: italic;
+}
