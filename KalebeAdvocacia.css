@@ -31,6 +31,37 @@
     
 }
 
+.carrosel {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    width: 80%;
+    max-width: 1560px;
+    height: 25vw;
+    max-height: 180px;
+    position: relative;
+    
+}
+
+.carrosel img {
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 1000ms;
+}
+
+.carrosel img.selected {
+    opacity: 1;
+}
+
 .nav {
     width: 99%;
     font-size: 25px;
