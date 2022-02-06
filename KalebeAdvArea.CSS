@@ -1,63 +1,90 @@
-        .corpo {
-            background-color: rgb(13, 36, 50);
-            align-items: center;
-            justify-content: center;
-            width: 90%;
-            display: flex;
-            position: relative;
-        }
-        
-        #logo {
-            justify-content: center;
-            display: flex;
-            align-items: center;
-           
-        }
-        
-        .nav {
-            width: 99%;
-            font-size: 25px;
-            max-width: 1260px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: rgb(231, 215, 195);
-            display: flex;
-            flex-direction: center;
-        }
-        
-        .menu {
-            display: flex;
-            flex-direction: center;
-            max-width: 1560px;
-        }
-        
-        .menu a {
-            font-size: 30px;
-            color: rgb(231, 215, 195);
-            text-decoration: none;
-            margin-left: 10px;
-        }
+#allsite{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(13, 36, 50);  
+}
 
-        #areas{
-            align-items: center;
-            justify-content: center;
-            color: oldlace;
-            position: relative;
-        
-        }
-
-        #titulo{
-            font-size: 43px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-style: italic;
-        }
+#corpo {
+    justify-content: center;     
+    width: 100%;
+    max-width: 1560px;
+    align-items: center;
+    position: absolute;
     
-        #area1{
-            font-size: 28px;
-            display: flex;
-            justify-content: center;
-            font-style: italic;
-        }
+}
 
-   
+#logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.menu {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+  
+}
+
+.menu a {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#ahome{
+    position: relative;
+    width: 140px;
+    height: 50px;
+}
+
+#aatuacao{
+    position: relative;
+    width: 260px;
+    height:50px;
+    object-position: center;
+}
+
+#acontato{
+    position: relative;
+    width: 140px;
+    height: 50px;
+
+}
+
+#main{
+    justify-content: center;        
+    width: 100%;
+    max-width: 1560px;
+    position: relative;
+    display: flex;
+}
+
+#areas{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+
+}
+
+#titulo{
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#area1{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+

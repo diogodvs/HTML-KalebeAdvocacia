@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" id="allsite">
+<html lang="pt-br" class="allsite">
     <head>
 
         <meta charset="utf-8">
@@ -29,35 +29,41 @@
         </header>
 
         <main id="main">
-            
-            <section id="formulario">
-                
-                <div>
-                    <h1 id="fc">Fale Conosco</h1>
-                </div>
+            <div class="box">
+                <form action="">
+                    <fieldset>
 
-                <div class="form-group">
-                    <input type="text" name="nome" id="nome"
-                    placeholder="Seu Nome" required="required">
-                </div>
+                        <legend><b>Formulário de Contato</b></legend>
+                        <br><br>
 
-                <div class="form-group">
-                    <input type="text" name="email" id="email"
-                    placeholder="E-Mail" required="required">
-                </div>
-                
-                <div class="form-group">
-                    <input type="text" name="telefone" id="fonecontato"
-                    placeholder="Telefone para Contato" required="required">
-                </div>
+                        <div class="inputbox">
+                            <input type="text" name="nome" class="inputuser" id="nome" required="required">
+                            <label for="nome" class="labelinput">Nome Completo</label><br>
+                        </div>
+                        <br><br>
 
-                <div class="form-group">
-                    <input type="text" name="solicitacao" id="solicitacao"
-                    placeholder="Insira uma prévia da sua solicitao para entrarmos em contato ja cientes do que precisa, Obrigado." required="required">
-                </div>
-                
-                <button>Enviar</button>
-            </section>
+                        <div class="inputbox">
+                            <input type="email" name="email" class="inputuser" id="email" required="required">
+                            <label for="email" class="labelinput">E-Mail</label><br>
+                        </div>
+                        <br><br>
+
+                        <div class="inputbox">
+                            <input type="tel" name="telefone" class="inputuser" id="telefone" required="required">
+                            <label for="telefone" class="labelinput">Telefone</label><br>
+                        </div>
+                        <br><br>
+
+                        <div class="inputbox">
+                            <input type="text" name="assunto" class="inputuser" id="assunto" required="required">
+                            <label for="telefone" class="labelinput">Assunto</label>
+                        </div>
+
+                        <input type="submit" id="submit">
+
+                    </fieldset>
+                </form>
+            </div>
         
         </main>
 

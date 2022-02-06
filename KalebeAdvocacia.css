@@ -2,12 +2,12 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: rgb(13, 36, 50); 
+
 }
 
 .corpo {
-
-    justify-content: center;
-    background-color: rgb(13, 36, 50);        
+    justify-content: center;       
     width: 100%;
     max-width: 1560px;
     align-items: center;
@@ -15,7 +15,6 @@
 }
    
 .carrosel {
-    
     align-items: center;
     justify-content: right;
     display: flex;
@@ -46,19 +45,17 @@
 }
 
 .nav {
-    width: 99%;
+    width: 100%;
     font-size: 25px;
     max-width: 1260px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(231, 215, 195);
     display: flex;
-    flex-direction: center;
     position: absolute;
 }
 
 .menu {
     justify-content: center;
-    background-color: rgb(13, 36, 50);
     display: flex;
     position: relative;
  
@@ -66,13 +63,13 @@
 
 .menu a {
     font-size: 30px;
-    color: rgb(231, 215, 195);
+    color: white;
     text-decoration: none;
 }
 
 #quemsomos {
     
-    width: 99%;
+    width: 95%;
     text-align: center;
     font-size: 25px;
     max-width: 1260px;
@@ -102,8 +99,8 @@
 }
 
 #logo {
-
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
+
 }

@@ -1,13 +1,13 @@
-#allsite{
+.allsite{
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: rgb(13, 36, 50);
 }
-#corpo {
 
-    justify-content: center;
-    background-color: rgb(13, 36, 50);        
-    width: 99%;
+#corpo {
+    justify-content: center;     
+    width: 100%;
     max-width: 1560px;
     align-items: center;
     position: absolute;
@@ -20,37 +20,31 @@
 }
 
 .nav {
-    padding:  200px 10px 200px 10px;
-    justify-content: center;
-    width: 99%;
+    width: 100%;
     font-size: 25px;
     max-width: 1260px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(231, 215, 195);
-    flex-direction: center;
-    object-position: center;
-    display: flex;
 }
 
 .menu {
     justify-content: center;
-    background-color: rgb(13, 36, 50);
     display: flex;
     position: relative;
 }
-#ahome{
 
+#ahome{
     display: flexbox;
     width: 140px;
     height: 50px;
     position: relative;
 }
+
 #aatuacao{
     position: relative;
     display: flexbox;
     width: 260px;
     height:50px
 }
+
 #acontato{
     position: relative;
     display: flexbox;
@@ -58,17 +52,14 @@
     height: 50px;
 
 }
+
 .menu a {
     display: flex;
     font-size: 30px;
     color: white;
     text-decoration: none;
-    margin-left: 10px;
 }
 
-#fc{
-    color: white;
-}
 
 #main{
 
@@ -76,15 +67,79 @@
     width: 99%;
     max-width: 1560px;
     position: absolute;
-}
-.form-group{
+    height: 99%;
     
-    align-items: center;
-    width: 600px;
 }
 
-#solicitacao{
+.box{
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 36, 50);
+    position: absolute;
+    left: 15%;
+    padding: 15px;
+    border-radius: 20px;
+    width: 37%;
+    background-color: #344f59;
+}
 
-    width: 600px;
+fieldset{
+    border: 3px solid  rgb(13, 36, 50);
+    border-radius: 15px;
+}
+
+legend{
+    border: 1px solid #a67d4b;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #a67d4b;
+}
+
+.inputbox{
     
+    position: relative;
+}
+
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: opx;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.inputuser:focus ~ .labelinput,
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: #d9c382;
+}
+
+#submit{
+    background-image: linear-gradient( to right, #344f59, rgb(13, 36, 50));
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 24%;
+    position: relative;
+    box-shadow: #d9c382 1px 1px 5px 5px;
 }
