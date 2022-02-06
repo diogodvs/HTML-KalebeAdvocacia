@@ -1,19 +1,27 @@
-#corpo {
-    background-color: rgb(13, 36, 50);
+#allsite{
     justify-content: center;
+    align-content: center;
     align-items: center;
+}
+#corpo {
+
+    justify-content: center;
+    background-color: rgb(13, 36, 50);        
     width: 99%;
     max-width: 1560px;
-    display: flex;
+    align-items: center;
+    position: absolute;
+    
 }
 
 #logo {
     display: flex;
-    object-position: right;
     justify-content: center;
 }
 
 .nav {
+    padding:  200px 10px 200px 10px;
+    justify-content: center;
     width: 99%;
     font-size: 25px;
     max-width: 1260px;
@@ -25,13 +33,58 @@
 }
 
 .menu {
+    justify-content: center;
     background-color: rgb(13, 36, 50);
     display: flex;
+    position: relative;
 }
+#ahome{
 
+    display: flexbox;
+    width: 140px;
+    height: 50px;
+    position: relative;
+}
+#aatuacao{
+    position: relative;
+    display: flexbox;
+    width: 260px;
+    height:50px
+}
+#acontato{
+    position: relative;
+    display: flexbox;
+    width: 140px;
+    height: 50px;
+
+}
 .menu a {
+    display: flex;
     font-size: 30px;
-    color: rgb(231, 215, 195);
+    color: white;
     text-decoration: none;
     margin-left: 10px;
+}
+
+#fc{
+    color: white;
+}
+
+#main{
+
+    justify-content: center;        
+    width: 99%;
+    max-width: 1560px;
+    position: absolute;
+}
+.form-group{
+    
+    align-items: center;
+    width: 600px;
+}
+
+#solicitacao{
+
+    width: 600px;
+    
 }

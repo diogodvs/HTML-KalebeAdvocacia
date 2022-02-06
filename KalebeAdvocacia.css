@@ -1,40 +1,23 @@
 #allsite{
-
-    background-color: rgb(13, 36, 50);
     justify-content: center;
+    align-content: center;
     align-items: center;
-    padding: 1px 30px 1px 150px;
-    border-left: rgb(176, 144, 83) solid 4px;
-    border-right: rgb(176, 144, 83) solid 4px;
-    width: auto;
-    height: 760px;
-    max-width: 1360px;
-    position: relative;
 }
 
 .corpo {
 
-    width: 99%;
+    justify-content: center;
+    background-color: rgb(13, 36, 50);        
+    width: 100%;
     max-width: 1560px;
-    transform: scale(0.9);
-    transform-origin: 0 0;
-        
+    align-items: center;
+    position: absolute;
 }
-#cabecario{
-
-    display: flex;
-    width: 1280px;
-    max-width: 1560px;
-    height: 150px;
-    max-height: 150px;
-    font-style: italic;
-    
-}
-
+   
 .carrosel {
     
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     display: flex;
 
     width: 80%;
@@ -42,7 +25,7 @@
     height: 25vw;
     max-height: 180px;
     position: relative;
-    
+    margin: auto;
 }
 
 .carrosel img {
@@ -70,14 +53,14 @@
     color: rgb(231, 215, 195);
     display: flex;
     flex-direction: center;
-    padding-top:20px;
-    position: relative;
+    position: absolute;
 }
 
 .menu {
-    padding-top: 8%;
+    justify-content: center;
     background-color: rgb(13, 36, 50);
     display: flex;
+    position: relative;
  
 }
 
@@ -85,7 +68,6 @@
     font-size: 30px;
     color: rgb(231, 215, 195);
     text-decoration: none;
-    margin-left: 10px;
 }
 
 #quemsomos {
@@ -98,4 +80,30 @@
     color: rgb(231, 215, 195);
     position: absolute;
     font-style: italic;
+}
+#ahome{
+
+    display: flexbox;
+    width: 140px;
+    height: 50px;
+    position: relative;
+}
+#aatuacao{
+    position: relative;
+    display: flexbox;
+    width: 260px;
+    height:50px
+}
+#acontato{
+    position: relative;
+    display: flexbox;
+    width: 140px;
+    height: 50px;
+}
+
+#logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
