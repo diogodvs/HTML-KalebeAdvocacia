@@ -3,14 +3,17 @@
     align-content: center;
     align-items: center;
     background-color: rgb(13, 36, 50);
-}
+    max-width: 1260px;
+    display: flexbox;
 
+}
 #corpo {
     justify-content: center;     
-    width: 100%;
+    width: 98%;
     max-width: 1560px;
     align-items: center;
     position: absolute;
+    
     
 }
 
@@ -66,8 +69,8 @@
     justify-content: center;        
     width: 99%;
     max-width: 1560px;
-    position: absolute;
-    height: 99%;
+    position: relative;
+    height: 860px;
     
 }
 
@@ -76,16 +79,18 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(13, 36, 50);
     position: absolute;
-    left: 15%;
+    left: 7%;
     padding: 15px;
     border-radius: 20px;
-    width: 37%;
+    width: 40%;
+    max-height: 90%;
     background-color: #344f59;
 }
 
 fieldset{
     border: 3px solid  rgb(13, 36, 50);
     border-radius: 15px;
+    position: relative;
 }
 
 legend{
@@ -104,7 +109,7 @@ legend{
 .inputuser{
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(13, 36, 50);
     outline: none;
     color: white;
     font-size: 15px;
@@ -116,7 +121,7 @@ legend{
 .labelinput{
     position: absolute;
     top: 0px;
-    left: opx;
+    left: 0px;
     pointer-events: none;
     transition: .5s;
 
@@ -129,6 +134,21 @@ legend{
     color: #d9c382;
 }
 
+#previa{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, grey, rgb(13, 36, 50));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+#resumo{
+    color: #d9c382;
+}
+
+
 #submit{
     background-image: linear-gradient( to right, #344f59, rgb(13, 36, 50));
     width: 50%;
@@ -138,8 +158,66 @@ legend{
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 1px;
+    margin-bottom: 7px;
     margin-left: 24%;
     position: relative;
     box-shadow: #d9c382 1px 1px 5px 5px;
+}
+
+#imgform{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 2.5%;
+    height: 100%;
+    max-height: 860px;
+}
+
+#prodape{
+    
+    margin-left: 3px;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.info{
+   display: flex;
+    
+}
+.rodape{
+    justify-content: center;
+    align-items: center;
+    border-top: #344f59 solid 2px;
+    color: #d9c382;
+    margin-top: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1260px;
+    display: flex;
+    margin-left: 2.5%;
+
+}
+
+.nome{
+    margin-left: 1%;
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 2px;
+
+}
+
+.horario{
+    position: relative;
+    margin-left: 300px;  
+    
+}
+
+.ctt{
+    margin-left: 24%;
+}
+
+#telctt{
+    margin-left: 14%;
 }

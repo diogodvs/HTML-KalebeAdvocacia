@@ -1,3 +1,9 @@
+//<?php
+//    if(isset($_post["submit"]))
+//        {
+//            printf($_post["nome"])
+        }
+//?>
 <!DOCTYPE html>
 <html lang="pt-br" class="allsite">
     <head>
@@ -10,7 +16,7 @@
         <link rel="stylesheet" href="./KalebeAdvContato.CSS"/> 
 
         <script src="https://kit.fontawesome.com/a0c1d1546e.js" crossorigin="anonymous"></script>  
-
+        <include src="config.php"></include>
     </head>
     <body id="corpo">
 
@@ -30,7 +36,7 @@
 
         <main id="main">
             <div class="box">
-                <form action="">
+                <form action="config.php" method="post">
                     <fieldset>
 
                         <legend><b>Formulário de Contato</b></legend>
@@ -56,15 +62,57 @@
 
                         <div class="inputbox">
                             <input type="text" name="assunto" class="inputuser" id="assunto" required="required">
-                            <label for="telefone" class="labelinput">Assunto</label>
+                            <label for="assunto" class="labelinput">Assunto</label>
                         </div>
+                        <br><br>
+                    
+                       <div class="inputbox">
+
+                        <p id="resumo"> Insira a baixo um Resumo da Solicitação:</p>
+                            
+                                <div class="txtarea">
+                                    <textarea class="inputuser" name="resumo" id="previa" 
+                                    rows="3" placeholder="Resumo da Solicitação"></textarea>                            
+                                </div> 
+                        </div>
+                        
+                        <br>
 
                         <input type="submit" id="submit">
-
+                        <php src="config.php">
+                            
+                        </php>
                     </fieldset>
                 </form>
             </div>
-        
+            
+            <div id="imgfundo">
+                <img id="imgform" src="./ImagensKalebeAdv/martelo-direito.jpg" alt="img" width="96%">
+            </div>
+            
+            <footer class="rodape">
+                <div class="nome">
+                    <div class="info">
+                        <img src="./ImagensKalebeAdv/LogoKalebeScontorno.jpg" alt="logoicone" width="45px" id="imglogo">
+                        <P id="prodape">MARCOS KALEBE ADVOCACIA</P>
+                        <br><br>
+                    </div>
+                    <div class="ctt">
+                        <p id="ctt"><i class="fab fa-whatsapp"></i> ENTRE EM CONTATO</p> 
+                        <p id="telctt"> <br>(69) 99296-7089</p>
+                    </div>
+               </div>
+
+               <div class="horario">
+                   <h4 id="tithora">Horario de Funcionamento</h4>
+                   <p><i class="far fa-clock"></i> Segunda a Sexta - 8h as 18h</p>
+                   <p><i class="far fa-clock"></i> Sábado - Fechado</p>
+                   <p><i class="far fa-clock"></i> Sábado - Fechado</p>
+               </div>
+            </footer>
         </main>
 
     </body>
+    
+
+   
