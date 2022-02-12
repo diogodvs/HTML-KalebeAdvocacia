@@ -8,7 +8,7 @@
 #corpo {
     justify-content: center;     
     width: 100%;
-    max-width: 1560px;
+    height: 100%;
     align-items: center;
     position: absolute;
     
@@ -66,6 +66,9 @@
 }
 
 #areas{
+    height: 440px;
+    width: 440px;
+    max-width: 880px;
     align-items: center;
     justify-content: center;
     color: white;
@@ -74,17 +77,135 @@
 }
 
 #titulo{
+    text-decoration: #d9c382;
+    box-shadow: 11px 11px 13px;
+    border-radius: 10px;
+    padding: 8px 50px;
     font-size: 43px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-style: italic;
+    margin-bottom: 150px;
 }
 
-#area1{
-    font-size: 28px;
-    display: flex;
+#primeira{
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+#segunda{
+    background-color: #d9c382;
     justify-content: center;
-    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 20px;
+    margin-bottom: 150px;
 }
 
+#terceira{
+    background-color: chocolate;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+#quarta{
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 2700ms;
+
+}
+
+[data-anime="left"] {
+    transform: translate3d(-100px, 0, 0);
+
+}
+
+[data-anime="right"] {
+    transform: translate3d(100px, 0, 0);
+
+}
+
+[data-anime = "left"].animate {
+    opacity: 1;
+    transform: translate3d(280px, 0px, 0px);
+}
+
+
+[data-anime = "right"].animate {
+    opacity: 1;
+    transform: translate3d(-280px, 0px, 0px);
+}
+
+#prodape{
+    
+    margin-left: 3px;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.info{
+   display: flex;
+    
+}
+.base{
+    display: flex;
+    border-top: #d9c382 2px solid;
+    width: 100%;
+    justify-content: center;
+}
+.rodape{
+
+    justify-content: center;
+    align-items: center;
+    border-top: #d9c382 2px;
+    color: #d9c382;
+    margin-top: 100%;
+    padding-top: 1%;
+    padding-bottom: 40px;
+    width: 1260px;
+    display: flex;
+    margin-left: 2.5%;
+
+}
+
+.nome{
+    margin-left: 1%;
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 2px;
+
+}
+
+.horario{
+    position: relative;
+    margin-left: 300px;  
+    
+}
+
+.ctt{
+    margin-left: 24%;
+}
+
+#telctt{
+    margin-left: 14%;
+}
